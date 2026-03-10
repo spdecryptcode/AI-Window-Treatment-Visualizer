@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# AI Models (large files)
+models/
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+
+# Test outputs
+test_results/
+*.log
+
+# Swatch images (may want to version control or not, depending on size)
+# Uncomment to exclude:
+# swatches/**/*.jpg
+# swatches/**/*.png
+
+# Test images (likely too large for git)
+test_images/**/*.jpg
+test_images/**/*.jpeg
+test_images/**/*.png
+!test_images/README.md
+
+# Training data (definitely too large)
+training/data/
+training/models/
+training/checkpoints/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.local
+
+# Gradio temporary files
+flagged/
+gradio_queue.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Production builds
+backend/uploads/
+backend/results/
+backend/*.db
+backend/*.sqlite
+frontend/build/
+frontend/.next/
+frontend/node_modules/
+
+# Docker volumes
+docker/volumes/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

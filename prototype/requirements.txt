@@ -1,0 +1,43 @@
+# AI Window Treatment Visualizer - Prototype Requirements
+# Python 3.8+ required (tested on 3.10-3.13)
+
+# Web Interface
+gradio>=4.16.0
+pillow>=10.3.0
+
+# Deep Learning Framework
+torch>=2.1.2
+torchvision>=0.16.2
+
+# Computer Vision
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# AI Models
+ultralytics>=8.1.0              # YOLOv8
+segment-anything>=1.0            # SAM/FastSAM
+timm>=0.9.12                     # MiDaS dependency
+
+# Diffusion Models (choose one based on path)
+# For SDXL path:
+diffusers>=0.26.0
+transformers>=4.37.0
+accelerate>=0.26.0
+safetensors>=0.4.0
+# xformers==0.0.23.post1          # Optional: speeds up SDXL (commented - may not work on all platforms)
+
+# For classical rendering path (lighter):
+scipy>=1.12.0
+
+# Utilities
+tqdm>=4.66.0
+einops>=0.7.0
+huggingface-hub>=0.20.0
+
+# Image Processing
+imageio>=2.33.0
+scikit-image>=0.22.0
+
+# CUDA support (if using NVIDIA GPU)
+# Install PyTorch with CUDA from: https://pytorch.org/get-started/locally/
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu121

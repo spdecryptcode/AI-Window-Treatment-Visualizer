@@ -4,12 +4,6 @@
 
 A fully offline, laptop-based multi-stage vision pipeline that detects windows in room photos and renders photorealistic window treatments using vendor swatches. Sales reps upload room images, select treatments and fabrics, then receive photorealistic before/after comparisons—all processed locally on RTX 3060+ GPU hardware with no cloud dependencies.
 
-## Project Status
-
-**Current Phase:** Prototype & Validation (Week 1)
-
-This project follows a validation-first approach. We're building a Gradio prototype to test AI model viability with real sales photos before committing to full production architecture.
-
 ## Architecture Overview
 
 ### Multi-Stage Vision Pipeline
@@ -130,7 +124,7 @@ window_treatment/
 
 ## Development Phases
 
-### ✅ Phase 0: Validation Prototype (Week 1)
+### Phase 0: Validation Prototype (Week 1)
 Build Gradio app to test pre-trained model quality with real sales photos.
 
 **Deliverables:**
@@ -139,12 +133,12 @@ Build Gradio app to test pre-trained model quality with real sales photos.
 - Sales rep feedback from 5-10 users
 - Decision: Classical rendering OR fine-tuned SDXL OR pivot
 
-### 🔄 Phase 1: Production System (Week 2-7)
+### Phase 1: Production System (Week 2-7)
 **Triggered if:** Classical rendering quality is acceptable (6-7/10)
 
 Build production React+FastAPI system with classical graphics rendering.
 
-### 🔄 Phase 2: Fine-Tuning (Week 2-13)
+### Phase 2: Fine-Tuning (Week 2-13)
 **Triggered if:** Need higher quality than classical rendering provides
 
 Collect training data and fine-tune YOLOv8 + SDXL LoRA for window treatment-specific rendering.
@@ -201,8 +195,3 @@ Proprietary - National Franchise Internal Use Only
 For technical issues during prototype phase, contact development team.
 
 ---
-
-**Repository:** [github.com/spdecryptcode/AI-Window-Treatment-Visualizer](https://github.com/spdecryptcode/AI-Window-Treatment-Visualizer)  
-**Last Updated:** March 10, 2026  
-**Current Phase:** Prototype & Validation  
-**Next Milestone:** Decision Gate (End Week 1)

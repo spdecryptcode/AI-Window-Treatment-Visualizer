@@ -1,5 +1,7 @@
 # AI Window Treatment Visualizer
 
+[![GitHub](https://img.shields.io/badge/GitHub-spdecryptcode%2FAI--Window--Treatment--Visualizer-blue?logo=github)](https://github.com/spdecryptcode/AI-Window-Treatment-Visualizer)
+
 A fully offline, laptop-based multi-stage vision pipeline that detects windows in room photos and renders photorealistic window treatments using vendor swatches. Sales reps upload room images, select treatments and fabrics, then receive photorealistic before/after comparisons—all processed locally on RTX 3060+ GPU hardware with no cloud dependencies.
 
 ## Project Status
@@ -32,7 +34,14 @@ Photorealistic Rendering
 Before/After Comparison
 ```
 
-## Quick Start
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/spdecryptcode/AI-Window-Treatment-Visualizer.git
+cd AI-Window-Treatment-Visualizer
+```
 
 ### One-Command Setup
 
@@ -176,6 +185,13 @@ After prototype validation, choose path:
 
 This is an internal sales tool project. Development team only.
 
+To contribute:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
 ## License
 
 Proprietary - National Franchise Internal Use Only
@@ -186,6 +202,7 @@ For technical issues during prototype phase, contact development team.
 
 ---
 
-**Last Updated:** February 16, 2026  
+**Repository:** [github.com/spdecryptcode/AI-Window-Treatment-Visualizer](https://github.com/spdecryptcode/AI-Window-Treatment-Visualizer)  
+**Last Updated:** March 10, 2026  
 **Current Phase:** Prototype & Validation  
 **Next Milestone:** Decision Gate (End Week 1)
